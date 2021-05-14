@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.divHeader {
+    width: 100%;
+}
+
+.header {
+    background-color: rgb(56, 56, 56);
+    color: red;
+}
+
+.styleContenedor {
+    margin-top: 130px;
+}
+
+.footer {
+    background-color: rgb(56, 56, 56);
+    color: red;
+    font-size: 20px;
+    
+}
