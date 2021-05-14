@@ -3,13 +3,22 @@
     padding: 0;
 }
 
+body {
+    background-color: rgba(173, 216, 230, 0.623);
+}
+
 .divHeader {
     width: 100%;
 }
 
 .header {
-    background-color: rgb(56, 56, 56);
-    color: red;
+    background-color: rgb(255, 73, 73);
+    font-weight: 700;
+    color: rgb(56, 56, 56);
+}
+
+.header h1 {
+    font-weight: 700;
 }
 
 .styleContenedor {
@@ -18,7 +27,91 @@
 
 .footer {
     background-color: rgb(56, 56, 56);
-    color: red;
+    color: rgb(255, 73, 73);
     font-size: 20px;
-    
+}
+
+ul {
+    padding: 0 35%;
+    list-style-type: none;
+}
+
+.card-text {
+    font-weight: 600;
+}
+
+.pokes {
+    padding: 5% 10%;
+}
+
+.pokes .card {
+    border-width: 7px;
+    margin: 5px;
+}
+
+.pokes .grass {
+    border-color: green;
+}
+
+.pokes .fire {
+    border-color: orangered;
+}
+
+.pokes .water {
+    border-color: rgb(91, 91, 214);
+}
+
+.pokes .bug {
+    border-color: rgba(206, 255, 47, 0.787);
+}
+.pokes .poison {
+    border-color: purple;
+}
+
+.pokes .electric {
+    border-color: rgb(255, 217, 0);
+}
+
+.pokes .ground {
+    border-color: rgb(201, 117, 61);
+}
+
+.pokes .fairy {
+    border-color: rgb(248, 174, 186);
+}
+
+.pokes .fighting {
+    border-color: rgb(172, 4, 4);
+}
+
+.pokes .psychic {
+    border-color: rgb(223, 39, 177);
+}
+
+.pokes .rock {
+    border-color: rgb(133, 67, 23);
+}
+
+.pokes .ghost {
+    border-color: rgb(85, 16, 92);
+}
+
+.pokes .dragon {
+    border-color: rgb(156, 18, 156);
+}
+
+.pokes .ice {
+    border-color: rgb(121, 200, 248);
+}
+
+.pokes .dark {
+    border-color: rgb(44, 40, 40);
+}
+
+.pokes .steel {
+    border-color: rgb(151, 149, 163);
+}
+
+.pokes .normal {
+    border-color: rgb(202, 193, 149);
 }
